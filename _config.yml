@@ -1,7 +1,7 @@
 remote_theme: rampatra/photography
 baseurl: "https://www.worksbyshelbirose.com/"
 image_fulls_loc: "/images/fulls"
-image_thumbs_loc: "/images/thumbs"
+image_thumbs_loc: "/images/fulls" # should make thumbs
 
 # UI configs
 title: "Works by Shelbi Rose"
