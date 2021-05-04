@@ -1,14 +1,14 @@
 site: Works by Shelbi Rose
 
-url: https://www.worksbyshelbirose.com/
-baseurl: https://www.worksbyshelbirose.com/
+url:
+baseurl:
 
 collections:
   pages:
     output: true
     permalink: /:name
   posts:
-    output: true
+    output: false
     permalink: /blog/:slug
   projects:
     output: true
