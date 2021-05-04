@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Board
+  site_title: WOrks by Shelbi Rose
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -8,17 +8,15 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
+    - title: 'Works'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
       url: '/contact'
 
 footer_settings:
-  footer_tagline: Board – a stylish full-width masonry grid Jekyll theme
+  footer_tagline: Works by Shelbi Rose
 
 grid_settings:
   overlay_opacity: 0.8
