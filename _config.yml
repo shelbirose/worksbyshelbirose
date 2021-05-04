@@ -1,14 +1,14 @@
-site: Board Jekyll Theme
+site: Works by Shelbi Rose
 
-url: 
-baseurl: 
+url: https://www.worksbyshelbirose.com/
+baseurl: https://www.worksbyshelbirose.com/
 
 collections:
   pages:
     output: true
     permalink: /:name
   posts:
-    output: true
+    output: false
     permalink: /blog/:slug
   projects:
     output: true
