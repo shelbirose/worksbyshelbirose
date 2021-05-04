@@ -1,22 +1,61 @@
-remote_theme: rampatra/photography
-baseurl: "https://www.worksbyshelbirose.com/"
-image_fulls_loc: "/images/fulls"
-image_thumbs_loc: "/images/fulls" # should make thumbs
+site: Board Jekyll Theme
 
-# UI configs
-title: "Works by Shelbi Rose"
-subtitle: "See the world through my eyes!"
-author: "Shelbi Rose"
-header:
- title: "Works"
- subtitle: "by Shelbi Rose"
-footer:
- name: "Hey there, my name is Shelbi"
- bio: "insert bio here"
-#social_urls:
- # facebook: "https://www.facebook.com/ramswaroop"
-  #twitter: "https://www.twitter.com/ram__patra"
- # instagram: "https://www.instagram.com/ram_patra"
-#  dribbble: "https://dribbble.com/rampatra"
-  #linkedin: "https://in.linkedin.com/in/ram-patra"
- # github: "https://www.github.com/rampatra"
+url: 
+baseurl: 
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+grid_alignments:
+  - top
+  - center
+  - bottom
