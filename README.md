@@ -1,4 +1,4 @@
-Theme based on https://github.com/rampatra/photography
+Theme from https://jekyllthemes.io/theme/board-portfolio-jekyll-theme
 
 ## Welcome to GitHub Pages
 
