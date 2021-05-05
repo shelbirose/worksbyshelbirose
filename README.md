@@ -1,6 +1,8 @@
 Theme from https://jekyllthemes.io/theme/board-portfolio-jekyll-theme
 
-See `_Readme.md` and `demo` for examples.
+See `_Readme.md` and `demo` for fully fleshed out examples.
+
+To add a new "Work", copy one of the files in the `_projects` folder, rename it, update the text (description and subtitle should be identical), and update the image location (two places in that file). Next upload the image file to `images/shelbi`
 
 ## Welcome to GitHub Pages
 
