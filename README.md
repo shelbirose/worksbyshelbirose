@@ -1,5 +1,7 @@
 Theme from https://jekyllthemes.io/theme/board-portfolio-jekyll-theme
 
+See `_Readme.md` and `demo` for examples.
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/joshclaxton/worksbyshelbirose/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
