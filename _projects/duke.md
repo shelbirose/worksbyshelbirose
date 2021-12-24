@@ -6,4 +6,5 @@ description: Australian Shepherd Pet Portrait. Completed in charcoal and soft pa
 featured_image: '/images/works/duke.jpeg'
 ---
 
-![](/images/works/duke.jpeg)
+![](/images/works/duke.jpeg) 
+sdfgsdfgsd
