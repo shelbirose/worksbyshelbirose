@@ -1,6 +1,6 @@
 ---
 title: 'Color Collage'
-subtitle: 'Surrealistic-themed color collage made from magazine clippings.
+subtitle: 'Surrealistic themed color collage made from magazine clippings.
 8.5 x 11 in.
 Completed in January 2017'
 date: 2018-06-30 00:00:00
